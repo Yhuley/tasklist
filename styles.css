@@ -1,0 +1,93 @@
+body{
+    background-color: lavender;
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    font-family: 'Ubuntu', sans-serif;
+}
+.content{
+    width: 700px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border: 1px solid darkgrey;
+}
+.cardContent{
+    padding: 45px 25px;
+    border-bottom: 1px solid darkgrey;
+}
+.cardTitle{
+    display: block;
+    font-size: 40px;
+    font-weight: 500;
+}
+.taskForm{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.taskInput, .filterTasks{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+.taskAddButton{
+    margin-left: -10px;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: cornflowerblue;
+}
+.cardAction{
+    padding: 0px 25px 35px 25px;
+}
+.taskTitle{
+    font-size: 40px;
+    font-weight: 400;
+}
+.collection{
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 20px 0px;
+}
+.collectionItem{
+    margin: 2px 0px;
+    padding: 15px 15px;
+    border: 1px solid darkgrey;
+    display: flex;
+    overflow-wrap: anywhere;
+}
+.deleteItem{
+    order: 999;
+    margin-left: auto;
+}
+.deleteItem:hover{
+    cursor: pointer;
+}
+.removeTasks{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+}

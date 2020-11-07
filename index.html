@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <div class="cardContent">
+            <span class="cardTitle">Task List</span>
+            <form class="taskForm">
+                <input class="taskInput" type="text" name="task" placeholder="New Task"/>
+                <input class="taskAddButton" type="submit" value="Add Task">
+            </form>
+        </div>
+        <div class="cardAction">
+            <h5 class="taskTitle">Tasks</h5>
+            <input class="filterTasks" type="text" name="filter" placeholder="Filter Tasks"/>
+            <ul class="collection"></ul>
+            <a href="#" class="removeTasks">Remove Tasks</a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
