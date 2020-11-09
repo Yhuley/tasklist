@@ -1,16 +1,24 @@
 body{
-    background-color: lavender;
+    background-color: darkslategray;
     margin: 0;
     padding: 0;
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
     font-family: 'Ubuntu', sans-serif;
+}
+address{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    font-style: normal;
 }
 .content{
     width: 700px;
     background-color: white;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    margin-top: 10px;
     border: 1px solid darkgrey;
 }
 .cardContent{
@@ -46,7 +54,7 @@ body{
     margin-top: 20px;
     height: 50px;
     width: 150px;
-    background-color: cornflowerblue;
+    background-color: darkslategray;
 }
 .cardAction{
     padding: 0 25px 35px 25px;
@@ -54,6 +62,7 @@ body{
 .taskTitle{
     font-size: 40px;
     font-weight: 400;
+    margin: 25px 0;
 }
 .collection{
     list-style: none;
