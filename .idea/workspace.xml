@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fc5e463-31f1-452c-8d42-502a6524ec1a" name="Default Changelist" comment="">
+    <list default="true" id="4fc5e463-31f1-452c-8d42-502a6524ec1a" name="Default Changelist" comment="remove task, delete all tasks, filter task added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -53,12 +53,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604671545798</updated>
-      <workItem from="1604671547290" duration="18429000" />
+      <workItem from="1604671547290" duration="18962000" />
+      <workItem from="1604912581717" duration="7071000" />
     </task>
+    <task id="LOCAL-00001" summary="remove task, delete all tasks, filter task added">
+      <created>1604765100172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604765100172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove task, delete all tasks, filter task added" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove task, delete all tasks, filter task added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604757067351">
@@ -77,6 +90,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="535" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604757222207" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604765111285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604765111285" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1604745312299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -72,6 +72,15 @@ body{
 .deleteItem{
     order: 999;
     margin-left: auto;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: darkred;
+    color: white;
 }
 .deleteItem:hover{
     cursor: pointer;
